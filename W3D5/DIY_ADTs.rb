@@ -74,4 +74,6 @@ class Map
     map
   end
 
+  #test comment
+
 end
