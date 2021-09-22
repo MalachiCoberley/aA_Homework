@@ -55,7 +55,7 @@ class Simon
   end
 
   def game_over_message
-  names = ["pig-eating fly", "lint licker", "weenie face", "loser mccruiser", "Dennis Leary lover"]
+  names = ["pig-eating fly", "lint licker", "weenie face", "loser mccruiser", "Dennis Leary lover", "drama llama", "ding dong"]
   insult = names.sample
     puts "You lost, you #{insult}. Try again"
   end
