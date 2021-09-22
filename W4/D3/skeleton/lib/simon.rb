@@ -31,6 +31,7 @@ class Simon
     seq.each do |color|
       puts color
       sleep(1)
+      system("clear")
     end
     system("clear")
   end
@@ -49,10 +50,14 @@ class Simon
 
   def round_success_message
     puts "Hooray"
+    sleep(1)
+    system("clear")
   end
 
   def game_over_message
-    puts "You lost, try again!"
+  names = ["pig-eating fly", "lint licker", "weenie face", "loser mccruiser", "Dennis Leary lover"]
+  insult = names.sample
+    puts "You lost, you #{insult}. Try again"
   end
 
   def reset_game
