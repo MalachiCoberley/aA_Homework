@@ -15,6 +15,6 @@ class Artist < ApplicationRecord
   end
 
   def better_tracks_query
-    # TODO: your code here
+    
   end
 end
